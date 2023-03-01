@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         AutoHelper - Gallery Organizer
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  try to take over the world!
+// @version      1.1
+// @description  Gallery Organiser on Neopets so you can drag and drop to reorganize!
 // @author       bajuwa 
 // @match        https://www.neopets.com/gallery/*
 // @require      http://code.jquery.com/jquery-latest.js
