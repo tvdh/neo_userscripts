@@ -11,6 +11,7 @@
 'use strict';
 
 // working in 2023
+// original from https://github.com/bajuwa/TampermonkeyScripts
 // --------------------------
 // USER-CONTROLLED SETTINGS
 // --------------------------
