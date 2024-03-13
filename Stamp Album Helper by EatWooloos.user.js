@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Stamp album helper
+// @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2022.12.18
+// @version      2024.03.13
 // @description  Adds an info menu about your missing stamps
-// @author       EatWooloos / Updated by Hert123
+// @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
 // ==/UserScript==
 
@@ -1348,6 +1348,7 @@ const STAMP_LIST = {
             { position: 24, name: "No Stamp", img: "", rarity: "" },
             { position: 25, name: "No Stamp", img: "", rarity: "" }
         ]
+	}
 };
 
 // Get the data for this album page
