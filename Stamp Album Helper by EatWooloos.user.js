@@ -13,6 +13,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
 /****************************************************************************************
  *
  *  < Stamp Album Helper by u/Eat_Wooloo_As_Mutton >
+ *  < Updated by Hert123 >
  *
  *  This script helps you find and fill up your missing stamps much quicker and easier
  *  without having to open up an external database like Jellyneo in another tab.
@@ -23,7 +24,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list shamelessly scraped from Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 18th of December, 2022
+ *  Stamp album data last updated 13th of March, 2024 by Hert123
  *
  ****************************************************************************************/
 
