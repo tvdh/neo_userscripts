@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2024.03.13
+// @version      2024.07.05
 // @description  Adds an info menu about your missing stamps
-// @author       Original: EatWooloos / Updated by Hert123
+// @author       Original: EatWooloos / Updated by Hert123 / Updated by GM
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
 // ==/UserScript==
 
@@ -24,7 +24,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list shamelessly scraped from Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 13th of March, 2024 by Hert123
+ *  Stamp album data last updated 05th of July, 2024 by GM
  *
  ****************************************************************************************/
 
@@ -877,13 +877,13 @@ const STAMP_LIST = {
             { position: 3, name: "Mellow Marauders Plushie Stamp", img: "mellow-marauders-plushie.gif", rarity: "r83" },
             { position: 4, name: "Drooling Quadrapus Stamp", img: "sta_quadrapus_drool.gif", rarity: "r78" },
             { position: 5, name: "Petpet Cannonball Stamp", img: "sta_petpet_cannonball.gif", rarity: "r84" },
-            { position: 6, name: "No Stamp", img: "", rarity: "" },
+            { position: 6, name: "Captain Bloodhook Stamp", img: "stamp_capt_bloodhook.gif", rarity: "r89" },
             { position: 7, name: "The Lighthouse Stamp", img: "sta_lighthouse.gif", rarity: "r81" },
             { position: 8, name: "Buried Treasure Stamp", img: "sta_krawk_island.gif", rarity: "r87" },
             { position: 9, name: "Bug Eye McGee Stamp", img: "sta_mcgee_bugeye.gif", rarity: "r83" },
             { position: 10, name: "Docked Ship Stamp", img: "sta_docked_ship.gif", rarity: "r85" },
             { position: 11, name: "Smugglers Cove Stamp", img: "sta_smugglers_cove.gif", rarity: "r86" },
-            { position: 12, name: "No Stamp", img: "", rarity: "" },
+            { position: 12, name: "Feldon Dinksy Collibridge Stamp", img: "stamp_feldon_dinksy.gif", rarity: "r84" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
             { position: 15, name: "Dubloon-O-Matic Stamp", img: "stamp_dubloon_o_matic.gif", rarity: "r89" },
@@ -1306,7 +1306,7 @@ const STAMP_LIST = {
             { position: 12, name: "No Stamp", img: "", rarity: "" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
-            { position: 15, name: "No Stamp", img: "", rarity: "" },
+            { position: 15, name: "Space Code Stamp", img: "stamp_space_code.gif", rarity: "r101" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
             { position: 17, name: "No Stamp", img: "", rarity: "" },
             { position: 18, name: "No Stamp", img: "", rarity: "" },
@@ -1332,6 +1332,96 @@ const STAMP_LIST = {
             { position: 8, name: "No Stamp", img: "", rarity: "" },
             { position: 9, name: "No Stamp", img: "", rarity: "" },
             { position: 10, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 12, name: "No Stamp", img: "", rarity: "" },
+            { position: 13, name: "No Stamp", img: "", rarity: "" },
+            { position: 14, name: "No Stamp", img: "", rarity: "" },
+            { position: 15, name: "No Stamp", img: "", rarity: "" },
+            { position: 16, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 18, name: "No Stamp", img: "", rarity: "" },
+            { position: 19, name: "No Stamp", img: "", rarity: "" },
+            { position: 20, name: "No Stamp", img: "", rarity: "" },
+            { position: 21, name: "No Stamp", img: "", rarity: "" },
+            { position: 22, name: "No Stamp", img: "", rarity: "" },
+            { position: 23, name: "No Stamp", img: "", rarity: "" },
+            { position: 24, name: "No Stamp", img: "", rarity: "" },
+            { position: 25, name: "No Stamp", img: "", rarity: "" }
+        ]
+	},
+     "45": {
+        "album": "Grey",
+        "list": [
+            { position: 1, name: "Nostalgic Grey Draik Stamp", img: "stamp_grey_draik.gif", rarity: "r101" },
+            { position: 2, name: "Grey Kari Charm", img: "fon_greykari_charm.gif", rarity: "r101" },
+            { position: 3, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 6, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "No Stamp", img: "", rarity: "" },
+            { position: 8, name: "No Stamp", img: "", rarity: "" },
+            { position: 9, name: "No Stamp", img: "", rarity: "" },
+            { position: 10, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 12, name: "No Stamp", img: "", rarity: "" },
+            { position: 13, name: "No Stamp", img: "", rarity: "" },
+            { position: 14, name: "No Stamp", img: "", rarity: "" },
+            { position: 15, name: "No Stamp", img: "", rarity: "" },
+            { position: 16, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 18, name: "No Stamp", img: "", rarity: "" },
+            { position: 19, name: "No Stamp", img: "", rarity: "" },
+            { position: 20, name: "No Stamp", img: "", rarity: "" },
+            { position: 21, name: "No Stamp", img: "", rarity: "" },
+            { position: 22, name: "No Stamp", img: "", rarity: "" },
+            { position: 23, name: "No Stamp", img: "", rarity: "" },
+            { position: 24, name: "No Stamp", img: "", rarity: "" },
+            { position: 25, name: "No Stamp", img: "", rarity: "" }
+        ]
+	},
+	"46": {
+        "album": "Plushies",
+        "list": [
+            { position: 1, name: "No Stamp", img: "", rarity: "" },
+            { position: 2, name: "No Stamp", img: "", rarity: "" },
+            { position: 3, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 6, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "No Stamp", img: "", rarity: "" },
+            { position: 8, name: "No Stamp", img: "", rarity: "" },
+            { position: 9, name: "No Stamp", img: "", rarity: "" },
+            { position: 10, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 12, name: "No Stamp", img: "", rarity: "" },
+            { position: 13, name: "No Stamp", img: "", rarity: "" },
+            { position: 14, name: "No Stamp", img: "", rarity: "" },
+            { position: 15, name: "No Stamp", img: "", rarity: "" },
+            { position: 16, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 18, name: "No Stamp", img: "", rarity: "" },
+            { position: 19, name: "No Stamp", img: "", rarity: "" },
+            { position: 20, name: "No Stamp", img: "", rarity: "" },
+            { position: 21, name: "No Stamp", img: "", rarity: "" },
+            { position: 22, name: "No Stamp", img: "", rarity: "" },
+            { position: 23, name: "No Stamp", img: "", rarity: "" },
+            { position: 24, name: "No Stamp", img: "", rarity: "" },
+            { position: 25, name: "No Stamp", img: "", rarity: "" }
+        ]
+	},
+     "47": {
+        "album": "Other V",
+        "list": [
+            { position: 1, name: "No Stamp", img: "", rarity: "" },
+            { position: 2, name: "No Stamp", img: "", rarity: "" },
+            { position: 3, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 6, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "No Stamp", img: "", rarity: "" },
+            { position: 8, name: "No Stamp", img: "", rarity: "" },
+            { position: 9, name: "No Stamp", img: "", rarity: "" },
+            { position: 10, name: "Council of Leaders Stamp", img: "stamp_councilleaders.gif", rarity: "r101" },
             { position: 11, name: "No Stamp", img: "", rarity: "" },
             { position: 12, name: "No Stamp", img: "", rarity: "" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
