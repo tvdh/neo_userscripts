@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2024.07.06
+// @version      2024.07.13
 // @description  Adds an info menu about your missing stamps
 // @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
@@ -24,7 +24,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list shamelessly scraped from Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 06th of July, 2024 by GM
+ *  Stamp album data last updated 13th of July, 2024 by GM
  *
  ****************************************************************************************/
 
@@ -816,7 +816,7 @@ const STAMP_LIST = {
             { position: 2, name: "Qasalan Delights Stamp", img: "sta_delight_qasalan.gif", rarity: "r76" },
             { position: 3, name: "Ancient Contract Stamp", img: "sta_ancient_contract.gif", rarity: "r77" },
             { position: 4, name: "Mystical Surroundings Stamp", img: "wea_y18gmc_sta_qasala_mystical.gif", rarity: "r101" },
-            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "Nabile & Tomos Stamp", img: "sta_nabile_tomos.gif", rarity: "r87" },
             { position: 6, name: "Qasalan Coffee Set Stamp", img: "sta_qasalan_coffeeset.gif", rarity: "r81" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
             { position: 8, name: "No Stamp", img: "", rarity: "" },
