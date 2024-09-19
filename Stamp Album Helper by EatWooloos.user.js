@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2024.09.09
+// @version      2024.09.18
 // @description  Adds an info menu about your missing stamps
 // @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
@@ -795,7 +795,7 @@ const STAMP_LIST = {
             { position: 11, name: "Maraquan Kau Maractite Coin", img: "coi_maraquan_kau.gif", rarity: "r85" },
             { position: 12, name: "Runed Maractite Coin", img: "coi_maractite_runed.gif", rarity: "r86" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
-            { position: 14, name: "No Stamp", img: "", rarity: "" },
+            { position: 14, name: "Rusty Sloth Clone Maractite Coin", img: "sea_rusty_clone_maractite_coin.gif", rarity: "r82" },
             { position: 15, name: "No Stamp", img: "", rarity: "" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
             { position: 17, name: "No Stamp", img: "", rarity: "" },
@@ -932,9 +932,9 @@ const STAMP_LIST = {
     "31": {
         "album": "Charms II",
         "list": [
-            { position: 1, name: "No Stamp", img: "", rarity: "" },
+            { position: 1, name: "Space Faerie Kari Charm", img: "fon_spacefaeriekari_charm.gif", rarity: "r101" },
             { position: 2, name: "Imposter Apple Collectable Charm", img: "toy_imp_apple_charm.gif", rarity: "r76" },
-            { position: 3, name: "No Stamp", img: "", rarity: "" },
+            { position: 3, name: "Detective Kari Charm", img: "fon_charm_det_kari.gif", rarity: "r101" },
             { position: 4, name: "No Stamp", img: "", rarity: "" },
             { position: 5, name: "Neopets 24th Cake Charm", img: "y24_cake_charm.gif", rarity: "r101" },
             { position: 6, name: "Astronaut Kari Charm", img: "fon_astronautkari_charm.gif", rarity: "r101" },
@@ -1212,13 +1212,13 @@ const STAMP_LIST = {
             { position: 8, name: "AAA Coin", img: "spe_ddy21_aaa_coin.gif", rarity: "r101" },
             { position: 9, name: "No Stamp", img: "", rarity: "" },
             { position: 10, name: "No Stamp", img: "", rarity: "" },
-            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "Gingerbread House Coin", img: "col_gingerbread_house_coin.gif", rarity: "r101" },
             { position: 12, name: "No Stamp", img: "", rarity: "" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
             { position: 15, name: "No Stamp", img: "", rarity: "" },
             { position: 16, name: "Fiendish Formations Coin", img: "coin_twr_fiendish_formations.gif", rarity: "r101" },
-            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "Snowickle Coin", img: "snowickle_coin.gif", rarity: "r101" },
             { position: 18, name: "No Stamp", img: "", rarity: "" },
             { position: 19, name: "No Stamp", img: "", rarity: "" },
             { position: 20, name: "No Stamp", img: "", rarity: "" },
@@ -1256,7 +1256,7 @@ const STAMP_LIST = {
             { position: 22, name: "Valentine Stamp", img: "stamp_valentine.gif", rarity: "r101" },
             { position: 23, name: "No Stamp", img: "", rarity: "" },
             { position: 24, name: "No Stamp", img: "", rarity: "" },
-            { position: 25, name: "No Stamp", img: "", rarity: "" }
+            { position: 25, name: "AC XIX Commemorative Stamp", img: "stamp_acxix_comm.gif", rarity: "r101" }
         ]
     },
     "42": {
@@ -1372,7 +1372,7 @@ const STAMP_LIST = {
             { position: 18, name: "No Stamp", img: "", rarity: "" },
             { position: 19, name: "No Stamp", img: "", rarity: "" },
             { position: 20, name: "No Stamp", img: "", rarity: "" },
-            { position: 21, name: "Terrible Two Stamp", img: "https://images.neopets.com/items/30nia3mf0d.gif", rarity: "r101" },
+            { position: 21, name: "Terrible Two Stamp", img: "30nia3mf0d.gif", rarity: "r101" },
             { position: 22, name: "No Stamp", img: "", rarity: "" },
             { position: 23, name: "No Stamp", img: "", rarity: "" },
             { position: 24, name: "No Stamp", img: "", rarity: "" },
