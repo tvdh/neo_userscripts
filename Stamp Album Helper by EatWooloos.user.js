@@ -3,7 +3,7 @@
 // @namespace    neopets
 // @version      2025.03.06
 // @description  Adds an info menu about your missing stamps
-// @author       Original: EatWooloos / Updated by Hert123 / Updated by JmKrahl
+// @author       Original: EatWooloos / Updated by Hert123 
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
 // ==/UserScript==
 
@@ -14,18 +14,18 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *
  *  < Stamp Album Helper originally by u/Eat_Wooloo_As_Mutton >
  *  < Updated by Hert123 and contributors >
- *  < Contributors: GimMatthew, TylerHuyser, BoundlessTiger >
+ *  < Contributors: GimMatthew, TylerHuyser, BoundlessTiger, JmKrahl >
  *
  *  This script helps you find and fill up your missing stamps much quicker and easier
  *  without having to open up an external database like Jellyneo in another tab.
  *
- *  This script uses some functionality from diceroll's Search Helper script
+ *  This script uses some functionality from diceroll123's Search Helper script
  *  (https://github.com/diceroll123/NeoSearchHelper)
  *
- *  Stamp list shamelessly scraped from Jellyneo item database
+ *  Stamp list based on Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 18th of September, 2024
+ *  Stamp album data last updated 6th of March, 2025
  *
  ****************************************************************************************/
 
