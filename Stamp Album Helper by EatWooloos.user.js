@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2025.09.26
+// @version      2025.04.10
 // @description  Adds an info menu about your missing stamps
 // @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
@@ -14,7 +14,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *
  *  < Stamp Album Helper originally by u/Eat_Wooloo_As_Mutton >
  *  < Updated by Hert123 and contributors >
- *  < Contributors: GinMatthew, TylerHuyser, BoundlessTiger, JmKrahl >
+ *  < Contributors: GimMatthew, TylerHuyser, BoundlessTiger, JmKrahl >
  *
  *  This script helps you find and fill up your missing stamps much quicker and easier
  *  without having to open up an external database like Jellyneo in another tab.
@@ -25,7 +25,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list based on Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 26th of September, 2025
+ *  Stamp album data last updated 6th of March, 2025
  *
  ****************************************************************************************/
 
@@ -1069,7 +1069,7 @@ const STAMP_LIST = {
             { position: 14, name: "No Stamp", img: "", rarity: "" },
             { position: 15, name: "No Stamp", img: "", rarity: "" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
-            { position: 17, name: 25th Anniversary Doglefox Stamp", img: "c83b3b3379.gif", rarity: "r101" },
+            { position: 17, name: "25th Anniversary Doglefox Stamp", img: "c83b3b3379.gif", rarity: "r101" },
             { position: 18, name: "No Stamp", img: "", rarity: "" },
             { position: 19, name: "No Stamp", img: "", rarity: "" },
             { position: 20, name: "No Stamp", img: "", rarity: "" },
@@ -1207,7 +1207,7 @@ const STAMP_LIST = {
             { position: 2, name: "King Coltzan Coin", img: "coi_king_coltzan.gif", rarity: "r101" },
             { position: 3, name: "Birthday Coin", img: "birthday_coin.gif", rarity: "r101" },
             { position: 4, name: "Coltzans Shrine Coin", img: "coi_coltzans_shrine.gif", rarity: "r101" },
-            { position: 5, name: "Negg Coin", img: "3cf37a7ee6.gif", rarity: "r101" },
+            { position: 5, name: "No Stamp", img: "", rarity: "" },
             { position: 6, name: "Golden Altador Cup Coin", img: "golden_altadorcup_coin.gif", rarity: "r101" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
             { position: 8, name: "AAA Coin", img: "spe_ddy21_aaa_coin.gif", rarity: "r101" },
@@ -1414,7 +1414,7 @@ const STAMP_LIST = {
         "album": "Other V",
         "list": [
             { position: 1, name: "No Stamp", img: "", rarity: "" },
-            { position: 2, name: "Doglefox Fetch Stamp", img: "f2a74kb582.gif", rarity: "r101 " },
+            { position: 2, name: "Doglefox Fetch Stamp", img: "f2a74kb582.gif", rarity: "r101" },
             { position: 3, name: "Tea Time Stamp", img: "ch61kbg6ih.gif", rarity: "r101" },
             { position: 4, name: "No Stamp", img: "", rarity: "" },
             { position: 5, name: "Colouring Book Stamp", img: "08f9a4nmk3.gif", rarity: "r101" },
@@ -1427,7 +1427,7 @@ const STAMP_LIST = {
             { position: 12, name: "Dr. Landelbrot Stamp", img: "df21ljk2le.gif", rarity: "r101" },
             { position: 13, name: "Swirling Void Stamp", img: "stamp_swirlingvoid.gif", rarity: "r101" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
-            { position: 15, name: "Bank Manager Stamp", img: "stamp_mono.gif", rarity: "r101 " },
+            { position: 15, name: "Bank Manager Stamp", img: "stamp_mono.gif", rarity: "r101" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
             { position: 17, name: "No Stamp", img: "", rarity: "" },
             { position: 18, name: "No Stamp", img: "", rarity: "" },
@@ -1436,7 +1436,7 @@ const STAMP_LIST = {
             { position: 21, name: "No Stamp", img: "", rarity: "" },
             { position: 22, name: "No Stamp", img: "", rarity: "" },
             { position: 23, name: "No Stamp", img: "", rarity: "" },
-            { position: 24, name: "The Grey Year Stamp", img: "stamp_acxx_grey_year.gif", rarity: "r101 " },
+            { position: 24, name: "No Stamp", img: "", rarity: "" },
             { position: 25, name: "No Stamp", img: "", rarity: "" }
         ]
 	},
