@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2025.03.06
+// @version      2025.04.10
 // @description  Adds an info menu about your missing stamps
-// @author       Original: EatWooloos / Updated by Hert123 
+// @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
 // ==/UserScript==
 
@@ -14,7 +14,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *
  *  < Stamp Album Helper originally by u/Eat_Wooloo_As_Mutton >
  *  < Updated by Hert123 and contributors >
- *  < Contributors: GimMatthew, TylerHuyser, BoundlessTiger, JmKrahl >
+ *  < Contributors: GinMatthew, TylerHuyser, BoundlessTiger, JmKrahl >
  *
  *  This script helps you find and fill up your missing stamps much quicker and easier
  *  without having to open up an external database like Jellyneo in another tab.
@@ -25,7 +25,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list based on Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 6th of March, 2025
+ *  Stamp album data last updated 26th of September, 2025
  *
  ****************************************************************************************/
 
@@ -943,7 +943,7 @@ const STAMP_LIST = {
             { position: 8, name: "Moon Rock Albert Collectable Charm", img: "sta_albert_moonrock.gif", rarity: "r101" },
             { position: 9, name: "AAA Collectable Charm", img: "sta_aaa_collectable.gif", rarity: "r101" },
             { position: 10, name: "Chia Clown Collectible Charm", img: "sta_ddy21_chiaclown_charm.gif", rarity: "r101" },
-            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "Zaira Charm", img: "8a98809bbb.gif", rarity: "r101" },
             { position: 12, name: "Hagan Collectable Charm", img: "toy_hagan_charm.gif", rarity: "r82" },
             { position: 13, name: "Recovered Shoyru Collectable Charm", img: "sta_twr_shoyrucollcharm.gif", rarity: "r101" },
             { position: 14, name: "Negg-Gazer Charm", img: "charm_negggazer.gif", rarity: "r101" },
@@ -956,7 +956,7 @@ const STAMP_LIST = {
             { position: 21, name: "Sloth Collectable Charm", img: "sta_sloth_charm.gif", rarity: "r96" },
             { position: 22, name: "Governor McGill Collectable Charm", img: "toy_y19haltot_mcgill_charm.gif", rarity: "r101" },
             { position: 23, name: "The Darkest Faerie Collectable Charm", img: "twr_sta_tdf_collcharm.gif", rarity: "r101" },
-            { position: 24, name: "No Stamp", img: "", rarity: "" },
+            { position: 24, name: "Baelia Charm", img: "baelia_charm.gif", rarity: "r89" },
             { position: 25, name: "Game Controller Collectable Charm", img: "toy_ddy18_gamecontr_charm.gif", rarity: "r101" }
         ]
     },
@@ -1056,7 +1056,7 @@ const STAMP_LIST = {
             { position: 1, name: "Soup Faerie Stamp", img: "sta_advc2019_soupfaerie.gif", rarity: "r101" },
             { position: 2, name: "No Stamp", img: "", rarity: "" },
             { position: 3, name: "No Stamp", img: "", rarity: "" },
-            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "Overstamped Stamp", img: "a7774ccde3.gif", rarity: "r101" },
             { position: 5, name: "25th Anniversary Aisha Stamp", img: "stamp_25thanni_aisha.gif", rarity: "r101" },
             { position: 6, name: "No Stamp", img: "", rarity: "" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
@@ -1207,7 +1207,7 @@ const STAMP_LIST = {
             { position: 2, name: "King Coltzan Coin", img: "coi_king_coltzan.gif", rarity: "r101" },
             { position: 3, name: "Birthday Coin", img: "birthday_coin.gif", rarity: "r101" },
             { position: 4, name: "Coltzans Shrine Coin", img: "coi_coltzans_shrine.gif", rarity: "r101" },
-            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "Negg Coin", img: "3cf37a7ee6.gif", rarity: "r101" },
             { position: 6, name: "Golden Altador Cup Coin", img: "golden_altadorcup_coin.gif", rarity: "r101" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
             { position: 8, name: "AAA Coin", img: "spe_ddy21_aaa_coin.gif", rarity: "r101" },
@@ -1253,7 +1253,7 @@ const STAMP_LIST = {
             { position: 18, name: "Baelia Stamp", img: "sta_baelia.gif", rarity: "r101" },
             { position: 19, name: "Neopets 22nd Birthday Stamp", img: "sta_22_bday.gif", rarity: "r101" },
             { position: 20, name: "Christmas Fir Stamp", img: "stamp_christmas_fir.gif", rarity: "r84" },
-            { position: 21, name: "No Stamp", img: "", rarity: "" },
+            { position: 21, name: "25th Anniversary Celebration Stamp", img: "44f4ea2977.gif", rarity: "r200" },
             { position: 22, name: "Valentine Stamp", img: "stamp_valentine.gif", rarity: "r101" },
             { position: 23, name: "No Stamp", img: "", rarity: "" },
             { position: 24, name: "No Stamp", img: "", rarity: "" },
@@ -1294,7 +1294,7 @@ const STAMP_LIST = {
         "album": "Virtupets II",
         "list": [
             { position: 1, name: "Stamp of Neopia", img: "stamp_neopia.gif", rarity: "r101" },
-            { position: 2, name: "No Stamp", img: "", rarity: "" },
+            { position: 2, name: "Gruntharxx Stamp", img: "st_gruntharxx.gif", rarity: "r88" },
             { position: 3, name: "No Stamp", img: "", rarity: "" },
             { position: 4, name: "No Stamp", img: "", rarity: "" },
             { position: 5, name: "No Stamp", img: "", rarity: "" },
@@ -1323,7 +1323,7 @@ const STAMP_LIST = {
     "44": {
         "album": "Faerieland II",
         "list": [
-            { position: 1, name: "No Stamp", img: "", rarity: "" },
+            { position: 1, name: "Faerie Fragments Baby Tiles Stamp", img: "g6l13af5dc.gif", rarity: "r101" },
             { position: 2, name: "Luxinia Stamp", img: "d3cf0h2ki5.gif", rarity: "r101" },
             { position: 3, name: "No Stamp", img: "", rarity: "" },
             { position: 4, name: "No Stamp", img: "", rarity: "" },
@@ -1356,7 +1356,7 @@ const STAMP_LIST = {
             { position: 1, name: "Nostalgic Grey Draik Stamp", img: "stamp_grey_draik.gif", rarity: "r101" },
             { position: 2, name: "Grey Kari Charm", img: "fon_greykari_charm.gif", rarity: "r101" },
             { position: 3, name: "Grey Tsunami Coin", img: "8ic7c8374m.gif", rarity: "r101" },
-            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "Sera Nero Stamp", img: "st_sera_nero.gif", rarity: "r101" },
             { position: 5, name: "No Stamp", img: "", rarity: "" },
             { position: 6, name: "No Stamp", img: "", rarity: "" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
@@ -1414,7 +1414,7 @@ const STAMP_LIST = {
         "album": "Other V",
         "list": [
             { position: 1, name: "No Stamp", img: "", rarity: "" },
-            { position: 2, name: "No Stamp", img: "", rarity: "" },
+            { position: 2, name: "Doglefox Fetch Stamp", img: "f2a74kb582.gif", rarity: "r101 " },
             { position: 3, name: "Tea Time Stamp", img: "ch61kbg6ih.gif", rarity: "r101" },
             { position: 4, name: "No Stamp", img: "", rarity: "" },
             { position: 5, name: "Colouring Book Stamp", img: "08f9a4nmk3.gif", rarity: "r101" },
@@ -1426,6 +1426,36 @@ const STAMP_LIST = {
             { position: 11, name: "No Stamp", img: "", rarity: "" },
             { position: 12, name: "Dr. Landelbrot Stamp", img: "df21ljk2le.gif", rarity: "r101" },
             { position: 13, name: "Swirling Void Stamp", img: "stamp_swirlingvoid.gif", rarity: "r101" },
+            { position: 14, name: "No Stamp", img: "", rarity: "" },
+            { position: 15, name: "Bank Manager Stamp", img: "stamp_mono.gif", rarity: "r101 " },
+            { position: 16, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 18, name: "No Stamp", img: "", rarity: "" },
+            { position: 19, name: "No Stamp", img: "", rarity: "" },
+            { position: 20, name: "No Stamp", img: "", rarity: "" },
+            { position: 21, name: "No Stamp", img: "", rarity: "" },
+            { position: 22, name: "No Stamp", img: "", rarity: "" },
+            { position: 23, name: "No Stamp", img: "", rarity: "" },
+            { position: 24, name: "The Grey Year Stamp", img: "stamp_acxx_grey_year.gif", rarity: "r101 " },
+            { position: 25, name: "No Stamp", img: "", rarity: "" }
+        ]
+	},
+     "48": {
+        "album": "Business Cards",
+        "list": [
+            { position: 1, name: "Barely Legible Business Card", img: "gif_wraith_business_card.gif", rarity: "r101" },
+            { position: 2, name: "Scored Stone Business Card", img: "gif_scordrax_business_card.gif", rarity: "r101" },
+            { position: 3, name: "Monstrous Business Card", img: "7762f5ggj6.gif", rarity: "r101" },
+            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 5, name: "No Stamp", img: "", rarity: "" },
+            { position: 6, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "No Stamp", img: "", rarity: "" },
+            { position: 8, name: "No Stamp", img: "", rarity: "" },
+            { position: 9, name: "No Stamp", img: "", rarity: "" },
+            { position: 10, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 12, name: "No Stamp", img: "", rarity: "" },
+            { position: 13, name: "No Stamp", img: "", rarity: "" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
             { position: 15, name: "No Stamp", img: "", rarity: "" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
