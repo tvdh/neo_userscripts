@@ -25,7 +25,7 @@ const owner = location.search.match(/owner=(.+)&*/)?.[1] || appInsightsUserName;
  *  Stamp list based on Jellyneo item database
  *  (https://items.jellyneo.net/)
  *
- *  Stamp album data last updated 6th of March, 2025
+ *  Stamp album data last updated 26th of September, 2025
  *
  ****************************************************************************************/
 
