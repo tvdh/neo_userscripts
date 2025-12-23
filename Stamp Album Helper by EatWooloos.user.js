@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Stamp album helper - Stamp searcher
 // @namespace    neopets
-// @version      2025.11.13
+// @version      2025.12.23
 // @description  Adds an info menu about your missing stamps
-// @author       Original: EatWooloos / Updated by Hert123 
+// @author       Original: EatWooloos / Updated by Hert123
 // @match        *://www.neopets.com/stamps.phtml?type=album&page_id=*
 // ==/UserScript==
 
@@ -906,7 +906,7 @@ const STAMP_LIST = {
             { position: 1, name: "Young Sophie Stamp", img: "sta_young_sophie.gif", rarity: "r75" },
             { position: 2, name: "Rusty Door Stamp", img: "sta_rustydoor.gif", rarity: "r76" },
             { position: 3, name: "Crumpetmonger Stamp", img: "sta_crumpetmonger.gif", rarity: "r83" },
-            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "Hilda the Hedgewitch Stamp", img: "st_hilda_hedgewitch.gif", rarity: "r88" },
             { position: 5, name: "Neovia Stamp", img: "sta_land_neovia.gif", rarity: "r78" },
             { position: 6, name: "Guard Zomutt Stamp", img: "sta_guardzomutt.gif", rarity: "r80" },
             { position: 7, name: "Bruno Stamp", img: "sta_bruno_stamp.gif", rarity: "r82" },
@@ -1119,8 +1119,8 @@ const STAMP_LIST = {
             { position: 4, name: "Sliding Darblat Stamp", img: "sta_sliding_darblat.gif", rarity: "r83" },
             { position: 5, name: "Reina Stamp", img: "stamp_reina.gif", rarity: "r101" },
             { position: 6, name: "Plump Petpets Stamp", img: "sta_plump_petpets.gif", rarity: "r101 " },
-            { position: 7, name: "No Stamp", img: "", rarity: "" },
-            { position: 8, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "Merry Mistletoe Stamp", img: "st_mistletoe_merry.gif", rarity: "r101" },
+            { position: 8, name: "Winter Wonderland Stamp", img: "sta_winter_wonderland.gif", rarity: "r80" },
             { position: 9, name: "No Stamp", img: "", rarity: "" },
             { position: 10, name: "Cybunny on a Cycle Stamp", img: "sta_cybunny_cycle.gif", rarity: "r94" },
             { position: 11, name: "No Stamp", img: "", rarity: "" },
@@ -1209,7 +1209,7 @@ const STAMP_LIST = {
             { position: 4, name: "Coltzans Shrine Coin", img: "coi_coltzans_shrine.gif", rarity: "r101" },
             { position: 5, name: "Negg Coin", img: "3cf37a7ee6.gif", rarity: "r101" },
             { position: 6, name: "Golden Altador Cup Coin", img: "golden_altadorcup_coin.gif", rarity: "r101" },
-            { position: 7, name: "No Stamp", img: "", rarity: "" },
+            { position: 7, name: "Snowager Coin", img: "coi_snowager.gif", rarity: "r101" },
             { position: 8, name: "AAA Coin", img: "spe_ddy21_aaa_coin.gif", rarity: "r101" },
             { position: 9, name: "No Stamp", img: "", rarity: "" },
             { position: 10, name: "No Stamp", img: "", rarity: "" },
@@ -1333,13 +1333,13 @@ const STAMP_LIST = {
             { position: 8, name: "No Stamp", img: "", rarity: "" },
             { position: 9, name: "No Stamp", img: "", rarity: "" },
             { position: 10, name: "No Stamp", img: "", rarity: "" },
-            { position: 11, name: "No Stamp", img: "", rarity: "" },
+            { position: 11, name: "Queen Fyora Metallic Stamp", img: "stamp_382.gif", rarity: "r101" },
             { position: 12, name: "No Stamp", img: "", rarity: "" },
             { position: 13, name: "No Stamp", img: "", rarity: "" },
             { position: 14, name: "No Stamp", img: "", rarity: "" },
             { position: 15, name: "No Stamp", img: "", rarity: "" },
             { position: 16, name: "No Stamp", img: "", rarity: "" },
-            { position: 17, name: "No Stamp", img: "", rarity: "" },
+            { position: 17, name: "The Darkest Faerie Stamp", img: "stamp_386.gif", rarity: "r101" },
             { position: 18, name: "No Stamp", img: "", rarity: "" },
             { position: 19, name: "No Stamp", img: "", rarity: "" },
             { position: 20, name: "No Stamp", img: "", rarity: "" },
@@ -1446,37 +1446,7 @@ const STAMP_LIST = {
             { position: 1, name: "Barely Legible Business Card", img: "gif_wraith_business_card.gif", rarity: "r101" },
             { position: 2, name: "Scored Stone Business Card", img: "gif_scordrax_business_card.gif", rarity: "r101" },
             { position: 3, name: "Monstrous Business Card", img: "7762f5ggj6.gif", rarity: "r101" },
-            { position: 4, name: "No Stamp", img: "", rarity: "" },
-            { position: 5, name: "No Stamp", img: "", rarity: "" },
-            { position: 6, name: "No Stamp", img: "", rarity: "" },
-            { position: 7, name: "No Stamp", img: "", rarity: "" },
-            { position: 8, name: "No Stamp", img: "", rarity: "" },
-            { position: 9, name: "No Stamp", img: "", rarity: "" },
-            { position: 10, name: "No Stamp", img: "", rarity: "" },
-            { position: 11, name: "No Stamp", img: "", rarity: "" },
-            { position: 12, name: "No Stamp", img: "", rarity: "" },
-            { position: 13, name: "No Stamp", img: "", rarity: "" },
-            { position: 14, name: "No Stamp", img: "", rarity: "" },
-            { position: 15, name: "No Stamp", img: "", rarity: "" },
-            { position: 16, name: "No Stamp", img: "", rarity: "" },
-            { position: 17, name: "No Stamp", img: "", rarity: "" },
-            { position: 18, name: "No Stamp", img: "", rarity: "" },
-            { position: 19, name: "No Stamp", img: "", rarity: "" },
-            { position: 20, name: "No Stamp", img: "", rarity: "" },
-            { position: 21, name: "No Stamp", img: "", rarity: "" },
-            { position: 22, name: "No Stamp", img: "", rarity: "" },
-            { position: 23, name: "No Stamp", img: "", rarity: "" },
-            { position: 24, name: "No Stamp", img: "", rarity: "" },
-            { position: 25, name: "No Stamp", img: "", rarity: "" }
-        ]
-	},
-     "48": {
-        "album": "Business Cards",
-        "list": [
-            { position: 1, name: "Barely Legible Business Card", img: "gif_wraith_business_card.gif", rarity: "r101" },
-            { position: 2, name: "Scored Stone Business Card", img: "gif_scordrax_business_card.gif", rarity: "r101" },
-            { position: 3, name: "Monstrous Business Card", img: "7762f5ggj6.gif", rarity: "r101" },
-            { position: 4, name: "No Stamp", img: "", rarity: "" },
+            { position: 4, name: "Knightly Business Card", img: "gif_jeran_business_card.gif", rarity: "r101" },
             { position: 5, name: "No Stamp", img: "", rarity: "" },
             { position: 6, name: "No Stamp", img: "", rarity: "" },
             { position: 7, name: "No Stamp", img: "", rarity: "" },
